@@ -18,6 +18,7 @@ A fork of [aedenthorn/HotbarSwitch](https://github.com/aedenthorn/ValheimMods/tr
 
 - Run the game once to generate the config file **cjayride.HotbarSwitch.cfg**
 
-RowsToSwitch = 2 | Default value: 2
-HotKey = ` | Default value: `
+-  RowsToSwitch = 2 (default)
+
+- HotKey = (tilda) `
 
