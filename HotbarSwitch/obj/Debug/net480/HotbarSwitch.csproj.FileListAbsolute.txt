@@ -1,0 +1,9 @@
+C:\Users\Administrator\Documents\Valheim-Modding\HotbarSwitch_Fork-main\HotbarSwitch\bin\Debug\net480\HotbarSwitch.dll
+C:\Users\Administrator\Documents\Valheim-Modding\HotbarSwitch_Fork-main\HotbarSwitch\bin\Debug\net480\HotbarSwitch.pdb
+C:\Users\Administrator\Documents\Valheim-Modding\HotbarSwitch_Fork-main\HotbarSwitch\obj\Debug\net480\HotbarSwitch.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Valheim-Modding\HotbarSwitch_Fork-main\HotbarSwitch\obj\Debug\net480\HotbarSwitch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\Valheim-Modding\HotbarSwitch_Fork-main\HotbarSwitch\obj\Debug\net480\HotbarSwitch.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Valheim-Modding\HotbarSwitch_Fork-main\HotbarSwitch\obj\Debug\net480\HotbarSwitch.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Valheim-Modding\HotbarSwitch_Fork-main\HotbarSwitch\obj\Debug\net480\HotbarSwitch.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Valheim-Modding\HotbarSwitch_Fork-main\HotbarSwitch\obj\Debug\net480\HotbarSwitch.dll
+C:\Users\Administrator\Documents\Valheim-Modding\HotbarSwitch_Fork-main\HotbarSwitch\obj\Debug\net480\HotbarSwitch.pdb

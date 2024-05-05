@@ -1,0 +1,9 @@
+{
+    "name": "HotbarSwitch",
+    "version_number": "0.3.0",
+    "website_url": "https://github.com/cjayride/HotbarSwitch_Fork",
+    "description": "Fork of aedenthorn/HotbarSwitch for v0.217.46+ Switches hotbar row with a hotkey press.",
+    "dependencies": [
+		"denikson-BepInExPack_Valheim-5.4.2202"
+    ]
+}
