@@ -7,3 +7,4 @@ C:\Users\Administrator\Documents\Valheim-Modding\HotbarSwitch_Fork-main\HotbarSw
 C:\Users\Administrator\Documents\Valheim-Modding\HotbarSwitch_Fork-main\HotbarSwitch\obj\Debug\net480\HotbarSwitch.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\Documents\Valheim-Modding\HotbarSwitch_Fork-main\HotbarSwitch\obj\Debug\net480\HotbarSwitch.dll
 C:\Users\Administrator\Documents\Valheim-Modding\HotbarSwitch_Fork-main\HotbarSwitch\obj\Debug\net480\HotbarSwitch.pdb
+C:\Users\Administrator\Documents\Valheim-Modding\HotbarSwitch_Fork-main\HotbarSwitch\obj\Debug\net480\HotbarSwitch.sourcelink.json

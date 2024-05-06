@@ -4,22 +4,15 @@ using HarmonyLib;
 using System;
 using System.Collections.Generic;
 using System.Reflection;
-using UnityEngine;
-using UnityEngine.UI;
 
 namespace HotbarSwitch {
-    [BepInPlugin("cjayride.HotbarSwitch", "Hotbar Switch", "0.3.0")]
+    [BepInPlugin("cjayride.HotbarSwitch", "Hotbar Switch", "0.3.1")]
     public class BepInExPlugin : BaseUnityPlugin {
-        private static readonly bool isDebug = true;
         private static BepInExPlugin context;
         public static ConfigEntry<bool> modEnabled;
         public static ConfigEntry<int> rowsToSwitch;
         public static ConfigEntry<string> hotKey;
 
-        public static void Dbgl(string str = "", bool pref = true) {
-            if (isDebug)
-                Debug.Log((pref ? typeof(BepInExPlugin).Namespace + " " : "") + str);
-        }
         private void Awake() {
             context = this;
             modEnabled = Config.Bind<bool>("General", "Enabled", true, "Enable this mod");
