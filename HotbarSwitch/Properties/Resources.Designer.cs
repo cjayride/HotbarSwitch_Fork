@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace .Properties {
+namespace Properties {
     using System;
     
     

@@ -7,12 +7,20 @@
       "RelativeMoniker": "D:0:0:{4BAB2C5F-CCF9-458F-87ED-066F08CA3D02}|HotbarSwitch\\HotbarSwitch.csproj|solutionrelative:hotbarswitch\\bepinexplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BAB2C5F-CCF9-458F-87ED-066F08CA3D02}|HotbarSwitch\\HotbarSwitch.csproj|c:\\users\\administrator\\documents\\valheim-modding\\hotbarswitch_fork-main\\hotbarswitch\\aedenthornutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4BAB2C5F-CCF9-458F-87ED-066F08CA3D02}|HotbarSwitch\\HotbarSwitch.csproj|C:\\Users\\Administrator\\Documents\\Valheim-Modding\\HotbarSwitch_Fork-main\\hotbarswitch\\hotbarswitch.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{4BAB2C5F-CCF9-458F-87ED-066F08CA3D02}|HotbarSwitch\\HotbarSwitch.csproj|solutionrelative:hotbarswitch\\hotbarswitch.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Documents\\Valheim-Modding\\HotbarSwitch_Fork-main\\valheim.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:valheim.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BAB2C5F-CCF9-458F-87ED-066F08CA3D02}|HotbarSwitch\\HotbarSwitch.csproj|C:\\Users\\Administrator\\Documents\\Valheim-Modding\\HotbarSwitch_Fork-main\\hotbarswitch\\aedenthornutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4BAB2C5F-CCF9-458F-87ED-066F08CA3D02}|HotbarSwitch\\HotbarSwitch.csproj|solutionrelative:hotbarswitch\\aedenthornutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BAB2C5F-CCF9-458F-87ED-066F08CA3D02}|HotbarSwitch\\HotbarSwitch.csproj|c:\\users\\administrator\\documents\\valheim-modding\\hotbarswitch_fork-main\\hotbarswitch\\hotbarswitch.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{4BAB2C5F-CCF9-458F-87ED-066F08CA3D02}|HotbarSwitch\\HotbarSwitch.csproj|solutionrelative:hotbarswitch\\hotbarswitch.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{4BAB2C5F-CCF9-458F-87ED-066F08CA3D02}|HotbarSwitch\\HotbarSwitch.csproj|c:\\users\\administrator\\documents\\valheim-modding\\hotbarswitch_fork-main\\hotbarswitch\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BAB2C5F-CCF9-458F-87ED-066F08CA3D02}|HotbarSwitch\\HotbarSwitch.csproj|solutionrelative:hotbarswitch\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +30,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "valheim.targets",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Valheim-Modding\\HotbarSwitch_Fork-main\\valheim.targets",
+              "RelativeDocumentMoniker": "valheim.targets",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Valheim-Modding\\HotbarSwitch_Fork-main\\valheim.targets",
+              "RelativeToolTip": "valheim.targets",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-05-11T07:53:48.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Resources.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Valheim-Modding\\HotbarSwitch_Fork-main\\HotbarSwitch\\Properties\\Resources.Designer.cs",
+              "RelativeDocumentMoniker": "HotbarSwitch\\Properties\\Resources.Designer.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Valheim-Modding\\HotbarSwitch_Fork-main\\HotbarSwitch\\Properties\\Resources.Designer.cs",
+              "RelativeToolTip": "HotbarSwitch\\Properties\\Resources.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T07:37:04.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "HotbarSwitch",
               "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Valheim-Modding\\HotbarSwitch_Fork-main\\HotbarSwitch\\HotbarSwitch.csproj",
               "RelativeDocumentMoniker": "HotbarSwitch\\HotbarSwitch.csproj",
@@ -38,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AedenthornUtils.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Valheim-Modding\\HotbarSwitch_Fork-main\\HotbarSwitch\\AedenthornUtils.cs",
               "RelativeDocumentMoniker": "HotbarSwitch\\AedenthornUtils.cs",
@@ -57,7 +91,7 @@
               "RelativeDocumentMoniker": "HotbarSwitch\\BepInExPlugin.cs",
               "ToolTip": "C:\\Users\\Administrator\\Documents\\Valheim-Modding\\HotbarSwitch_Fork-main\\HotbarSwitch\\BepInExPlugin.cs",
               "RelativeToolTip": "HotbarSwitch\\BepInExPlugin.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T18:55:30.186Z",
               "EditorCaption": ""

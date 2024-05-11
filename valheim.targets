@@ -57,11 +57,7 @@
   
   <!-- Add BepInEx references -->
   <ItemGroup Label="BepInEx">
-    <Reference Include="0Harmony20">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>$(BepInExPath)\core\0Harmony20.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
+
     <Reference Include="BepInEx">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>$(BepInExPath)\core\BepInEx.dll</HintPath>

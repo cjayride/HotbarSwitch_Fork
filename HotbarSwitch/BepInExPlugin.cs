@@ -4,9 +4,10 @@ using HarmonyLib;
 using System;
 using System.Collections.Generic;
 using System.Reflection;
+using UnityEngine.UI;
 
 namespace HotbarSwitch {
-    [BepInPlugin("cjayride.HotbarSwitch", "Hotbar Switch", "0.3.1")]
+    [BepInPlugin("cjayride.HotbarSwitch", "Hotbar Switch", "0.3.2")]
     public class BepInExPlugin : BaseUnityPlugin {
         private static BepInExPlugin context;
         public static ConfigEntry<bool> modEnabled;

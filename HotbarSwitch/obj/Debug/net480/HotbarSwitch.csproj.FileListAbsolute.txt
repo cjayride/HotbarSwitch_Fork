@@ -8,3 +8,16 @@ C:\Users\Administrator\Documents\Valheim-Modding\HotbarSwitch_Fork-main\HotbarSw
 C:\Users\Administrator\Documents\Valheim-Modding\HotbarSwitch_Fork-main\HotbarSwitch\obj\Debug\net480\HotbarSwitch.dll
 C:\Users\Administrator\Documents\Valheim-Modding\HotbarSwitch_Fork-main\HotbarSwitch\obj\Debug\net480\HotbarSwitch.pdb
 C:\Users\Administrator\Documents\Valheim-Modding\HotbarSwitch_Fork-main\HotbarSwitch\obj\Debug\net480\HotbarSwitch.sourcelink.json
+C:\Users\Administrator\Documents\Valheim-Modding\HotbarSwitch_Fork-main\HotbarSwitch\obj\Debug\net480\Properties.Resources.resources
+C:\Users\Administrator\Documents\Valheim-Modding\HotbarSwitch_Fork-main\HotbarSwitch\obj\Debug\net480\HotbarSwitch.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\Valheim-Modding\HotbarSwitch_Fork-main\HotbarSwitch\obj\Debug\net480\HotbarSw.678BEB83.Up2Date
+C:\Users\Administrator\Documents\Valheim-Modding\HotbarSwitch_Fork-main\HotbarSwitch\bin\Debug\net480\0Harmony.dll
+C:\Users\Administrator\Documents\Valheim-Modding\HotbarSwitch_Fork-main\HotbarSwitch\bin\Debug\net480\MonoMod.Backports.dll
+C:\Users\Administrator\Documents\Valheim-Modding\HotbarSwitch_Fork-main\HotbarSwitch\bin\Debug\net480\MonoMod.Utils.dll
+C:\Users\Administrator\Documents\Valheim-Modding\HotbarSwitch_Fork-main\HotbarSwitch\bin\Debug\net480\MonoMod.RuntimeDetour.dll
+C:\Users\Administrator\Documents\Valheim-Modding\HotbarSwitch_Fork-main\HotbarSwitch\bin\Debug\net480\MonoMod.Core.dll
+C:\Users\Administrator\Documents\Valheim-Modding\HotbarSwitch_Fork-main\HotbarSwitch\bin\Debug\net480\MonoMod.ILHelpers.dll
+C:\Users\Administrator\Documents\Valheim-Modding\HotbarSwitch_Fork-main\HotbarSwitch\bin\Debug\net480\System.ValueTuple.dll
+C:\Users\Administrator\Documents\Valheim-Modding\HotbarSwitch_Fork-main\HotbarSwitch\bin\Debug\net480\MonoMod.Iced.dll
+C:\Users\Administrator\Documents\Valheim-Modding\HotbarSwitch_Fork-main\HotbarSwitch\bin\Debug\net480\MonoMod.Utils.xml
+C:\Users\Administrator\Documents\Valheim-Modding\HotbarSwitch_Fork-main\HotbarSwitch\bin\Debug\net480\MonoMod.RuntimeDetour.xml
