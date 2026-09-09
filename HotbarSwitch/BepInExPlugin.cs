@@ -3,11 +3,9 @@ using BepInEx.Configuration;
 using HarmonyLib;
 using System;
 using System.Collections.Generic;
-using System.Reflection;
-using UnityEngine.UI;
 
 namespace HotbarSwitch {
-    [BepInPlugin("cjayride.HotbarSwitch", "Hotbar Switch", "0.3.2")]
+    [BepInPlugin("cjayride.HotbarSwitch", "Hotbar Switch", "0.4.0")]
     public class BepInExPlugin : BaseUnityPlugin {
         private static BepInExPlugin context;
         public static ConfigEntry<bool> modEnabled;
@@ -22,15 +20,14 @@ namespace HotbarSwitch {
 
             if (!modEnabled.Value)
                 return;
-
-            Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly(), null);
         }
         private void Update() {
             if (modEnabled.Value && !AedenthornUtils.IgnoreKeyPresses(true) && AedenthornUtils.CheckKeyDown(hotKey.Value)) {
-                int gridHeight = Player.m_localPlayer.GetInventory().GetHeight();
+                Inventory inventory = Player.m_localPlayer.GetInventory();
+                int gridHeight = inventory.GetHeight();
                 int rows = Math.Max(1, Math.Min(gridHeight, rowsToSwitch.Value));
 
-                List<ItemDrop.ItemData> items = Traverse.Create(Player.m_localPlayer.GetInventory()).Field("m_inventory").GetValue<List<ItemDrop.ItemData>>();
+                List<ItemDrop.ItemData> items = Traverse.Create(inventory).Field("m_inventory").GetValue<List<ItemDrop.ItemData>>();
                 for (int i = 0; i < items.Count; i++) {
                     if (items[i].m_gridPos.y >= rows)
                         continue;
@@ -38,7 +35,7 @@ namespace HotbarSwitch {
                     if (items[i].m_gridPos.y < 0)
                         items[i].m_gridPos.y = rows - 1;
                 }
-                Traverse.Create(Player.m_localPlayer.GetInventory()).Method("Changed").GetValue();
+                Traverse.Create(inventory).Method("Changed", new Type[] { typeof(bool), typeof(bool) }).GetValue(false, false);
             }
         }
     }

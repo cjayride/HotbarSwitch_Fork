@@ -1,6 +1,6 @@
 # HotbarSwitch
 
-Patched for Valheim v0.217.46+
+Updated for Valheim 1.0
 
 A fork of [aedenthorn/HotbarSwitch](https://github.com/aedenthorn/ValheimMods/tree/master/HotbarSwitch) 
 
@@ -18,7 +18,17 @@ A fork of [aedenthorn/HotbarSwitch](https://github.com/aedenthorn/ValheimMods/tr
 
 - Run the game once to generate the config file **cjayride.HotbarSwitch.cfg**
 
--  RowsToSwitch = 2 (default)
+- RowsToSwitch = 2 (default)
 
 - HotKey = (tilda) `
 
+# Contact
+- 𝕏: x.com/cjayride
+
+- Discord: discord.gg/cjayride (find me at the top of the user list) "cjayride"
+
+- Twitch: twitch.tv/cjayride
+
+# AI Generated
+
+This code was not AI Generated, however, AI was used to verify that it works with the new version of the game.

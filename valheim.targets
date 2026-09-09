@@ -44,6 +44,7 @@
         <GamePath Condition="!Exists('$(GamePath)') AND '$(_SteamLibraryPath)' != ''">$(_SteamLibraryPath)\steamapps\common\Valheim</GamePath>
         <GamePath Condition="!Exists('$(GamePath)')">C:\Program Files\Steam\steamapps\common\Valheim</GamePath>
         <GamePath Condition="!Exists('$(GamePath)')">C:\Program Files (x86)\Steam\steamapps\common\Valheim</GamePath>
+        <GamePath Condition="!Exists('$(GamePath)')">D:\SteamLibrary\steamapps\common\Valheim</GamePath>
       </PropertyGroup>
     </When>
   </Choose>
@@ -53,11 +54,17 @@
     <BepInExPath>$(GamePath)\BepInEx</BepInExPath>
     <ManagedDataPath>$(GamePath)\valheim_Data\Managed</ManagedDataPath>
     <UnityPath>$(GamePath)\unstripped_corlib</UnityPath>
+    <BepInExPath Condition="!Exists('$(BepInExPath)\core\BepInEx.dll')">$(SolutionDir)Libraries\BepInExPack\BepInExPack_Valheim\BepInEx</BepInExPath>
+    <UnityPath Condition="!Exists('$(UnityPath)\UnityEngine.dll')">$(ManagedDataPath)</UnityPath>
   </PropertyGroup>
   
   <!-- Add BepInEx references -->
   <ItemGroup Label="BepInEx">
-
+    <Reference Include="0Harmony">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(BepInExPath)\core\0Harmony.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="BepInEx">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>$(BepInExPath)\core\BepInEx.dll</HintPath>
@@ -243,7 +250,7 @@
     <ItemGroup>
       <AllFiles Include="$(TargetDir)**\*.*" Exclude="$(TargetDir)**\*.pdb" />
     </ItemGroup>
-    <Copy SourceFiles="@(AllFiles)" DestinationFolder="$(GamePath)\BepInEx\plugins\%(RecursiveDir)"></Copy>
+    <Copy Condition="Exists('$(GamePath)\BepInEx\plugins')" SourceFiles="@(AllFiles)" DestinationFolder="$(GamePath)\BepInEx\plugins\%(RecursiveDir)" />
     <Delete Files="$(ProjectDir)\bin\$(TargetName).zip" />
     <Copy SourceFiles="@(AllFiles)" DestinationFolder="$(TargetDir)..\Release\%(RecursiveDir)"></Copy>
     <ZipDirectory SourceDirectory="$(TargetDir)..\Release" DestinationFile="$(ProjectDir)\bin\$(TargetName).zip" />
