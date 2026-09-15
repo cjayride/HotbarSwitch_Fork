@@ -1,8 +1,8 @@
 {
     "name": "HotbarSwitch",
-    "version_number": "0.4.0",
+    "version_number": "0.5.2",
     "website_url": "https://github.com/cjayride/HotbarSwitch_Fork",
-    "description": "Fork of aedenthorn/HotbarSwitch. Switches hotbar row with a hotkey press. Updated for Valheim 1.0.",
+    "description": "Cycles which inventory row is the hotbar without moving items. Updated for Valheim 1.0.",
     "dependencies": [
 		"denikson-BepInExPack_Valheim-5.4.2350"
     ]

@@ -2,17 +2,15 @@
 
 Updated for Valheim 1.0
 
-A fork of [aedenthorn/HotbarSwitch](https://github.com/aedenthorn/ValheimMods/tree/master/HotbarSwitch) 
+A fork of [aedenthorn/HotbarSwitch](https://github.com/aedenthorn/ValheimMods/tree/master/HotbarSwitch)
 
 [ThunderStore](https://thunderstore.io/c/valheim/p/cjayride/HotbarSwitch) | [GitHub](https://github.com/cjayride/HotbarSwitch_Fork)
 
 # Switch hotbar rows
 
-- This mod switches the hotbar rows with a key press.
-
-- Switch between rows of your inventory. (Default row 1 and 2).
-
-- Press the tilda key `
+- Press ` to cycle which inventory row is the hotbar (default: row 1 and row 2).
+- Items stay in their original slots. Only keys 1-8 and the main hotbar HUD change which row they use.
+- Extra quick-slot bars (for example Z / V / B) are left alone.
 
 # Configuration
 
