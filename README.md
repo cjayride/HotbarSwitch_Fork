@@ -18,7 +18,7 @@ A fork of [aedenthorn/HotbarSwitch](https://github.com/aedenthorn/ValheimMods/tr
 
 - RowsToSwitch = 2 (default)
 
-- HotKey = (tilda) `
+- HotKey = BackQuote (tilde `` ` ``). Use a Unity KeyCode name such as `Keypad2`, or a combo such as `B + LeftControl`. With Configuration Manager, click the field and press the key, or use the dropdown.
 
 # Contact
 - 𝕏: x.com/cjayride

@@ -1,6 +1,6 @@
 {
     "name": "HotbarSwitch",
-    "version_number": "0.5.3",
+    "version_number": "0.5.9",
     "website_url": "https://github.com/cjayride/HotbarSwitch_Fork",
     "description": "Cycles which inventory row is the hotbar without moving items. Updated for Valheim 1.0.",
     "dependencies": [
