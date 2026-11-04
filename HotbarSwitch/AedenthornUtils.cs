@@ -12,7 +12,7 @@ public class AedenthornUtils
     {
         try
         {
-            return Input.GetKeyDown(value.ToLower());
+            return Input.GetKeyDown(value);
         }
         catch
         {

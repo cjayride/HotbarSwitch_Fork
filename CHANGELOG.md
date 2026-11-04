@@ -1,3 +1,10 @@
+# v0.5.3
+- Verified against current Valheim (`valheim.exe` 6000.0.75f1, Steam build 26249040)
+- Removed per-frame hotbar reflection painting and the global `GetItemAt` patch
+- Keys 1-8 now read the active row directly; HUD uses vanilla `UpdateIcons` + `GetBoundItems`
+- Patched `Inventory.GetHotbar` for the 1.0 API
+- Hotkey is parsed once instead of every frame
+
 # v0.5.2
 - Updated for Valheim 1.0
 - Hotbar switch no longer moves items, so stacks cannot be overwritten

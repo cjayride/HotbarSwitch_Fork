@@ -1,3 +1,5 @@
-InstantMonsterDrop/bin/**
-InstantMonsterDrop/obj/**
-InstantMonsterDrop.zip
+**/bin/**
+**/obj/**
+*.zip
+_dump_*
+PROGRESS.md
